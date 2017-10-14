@@ -35,29 +35,29 @@ Module.register("MMM-bernwordclock",{
 		this.elements = [];
 
 		this.elements["hour1"] = "eis";
-		this.elements["hour2"] = "zwöi";
+		this.elements["hour2"] = "zwoi";
 		this.elements["hour3"] = "drü";
-		this.elements["hour4"] = "vieri";
-		this.elements["hour5"] = "füfi";
-		this.elements["hour6"] = "sächsi";
-		this.elements["hour7"] = "sibni";
+		this.elements["hour4"] = "vier";
+		this.elements["hour5"] = "füf";
+		this.elements["hour6"] = "sächs";
+		this.elements["hour7"] = "sebni";
 		this.elements["hour8"] = "achti";
 		this.elements["hour9"] = "nüni";
 		this.elements["hour10"] = "zäni";
-		this.elements["hour11"] = "eufi";
-		this.elements["hour12"] = "zwöufi";
+		this.elements["hour11"] = "elfi";
+		this.elements["hour12"] = "zwölfi";
 
 		this.elements["befor"] = "vor";
 		this.elements["past"] = "ab";
 
 		this.elements["five"] = "füf";
 		this.elements["ten"] = "zää";
-		this.elements["quarter"] = "viertu";
+		this.elements["quarter"] = "viertl";
 		this.elements["twenty"] = "zwänzg";
 		this.elements["half"] = "haubi";
 
 		this.elements["it"] = "es";
-		this.elements["is"] = "isch";
+		this.elements["is"] = "esch";
 
 		this.elements["dot1"] = "dot1";
 		this.elements["dot2"] = "dot2";
