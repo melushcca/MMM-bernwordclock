@@ -17,7 +17,7 @@ Module.register("MMM-luzernwordclock",{
 
 	// Define required scripts.
 	getStyles: function() {
-		return ["bernwordclock.css"];
+		return ["luzernwordclock.css"];
 	},
 
 	// Define required scripts.
