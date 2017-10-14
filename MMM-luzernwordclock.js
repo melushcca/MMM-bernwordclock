@@ -212,7 +212,7 @@ Module.register("MMM-luzernwordclock",{
 		var wrapper = document.createElement("div");	
 		wrapper.innerHTML = "<span id=\"dot1\">.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot2\">.</span><br />" + 
 								"&nbsp;<span id=\"es\">E S</span> K <span id=\"isch\"> E S C H </span> A <span id=\"füf\">F Ü F</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"viertu\">V I E R T E L</span> B F <span id=\"zää\" >Z Ä Ä</span>&nbsp;<br />" +
+								"&nbsp;<span id=\"viertu\">V I E R T E L</span> B <span id=\"zää\" >Z Ä Ä</span>&nbsp;<br />" +
 								"&nbsp;<span id=\"zwänzg\">Z W Ä N Z G</span> S I <span id=\"vor\">V O R</span>&nbsp;<br />" +
 								"&nbsp;<span id=\"ab\">A B </span>O <span id=\"haubi\">H A L B I </span>E G E&nbsp;<br />" +
 								"&nbsp;<span id=\"eis\">E I S </span><span id=\"zwöi\">Z W O I </span>S <span id=\"drü\">D R Ü</span>&nbsp;<br />" +
