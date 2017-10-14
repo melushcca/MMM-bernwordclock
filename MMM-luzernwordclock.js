@@ -1,13 +1,13 @@
-/* Word Clock written in the Swiss German dialect of Bern */
+/* Word Clock written in the Swiss German dialect of Luzern */
 
 /* Magic Mirror
- * Module: Bern Word Clock
- *
+ * Forked from: Bern Word Clock
  * By Sebastian Plattner https://www.sebastianplattner.ch
  * MIT Licensed.
+ * Changed to Luzern dialect by Melissa Santos http://www.melissasantos.ch
  */
 
-Module.register("MMM-bernwordclock",{
+Module.register("MMM-luzernwordclock",{
 
 	// Define module defaults
 	defaults: {
@@ -211,16 +211,16 @@ Module.register("MMM-bernwordclock",{
 
 		var wrapper = document.createElement("div");	
 		wrapper.innerHTML = "<span id=\"dot1\">.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot2\">.</span><br />" + 
-								"&nbsp;<span id=\"es\">E S</span> K <span id=\"isch\"> I S C H </span> A <span id=\"füf\">F Ü F</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"viertu\">V I E R T U</span> B F <span id=\"zää\" >Z Ä Ä</span>&nbsp;<br />" +
+								"&nbsp;<span id=\"es\">E S</span> K <span id=\"isch\"> E S C H </span> A <span id=\"füf\">F Ü F</span>&nbsp;<br />" +
+								"&nbsp;<span id=\"viertu\">V I E R T E L</span> B F <span id=\"zää\" >Z Ä Ä</span>&nbsp;<br />" +
 								"&nbsp;<span id=\"zwänzg\">Z W Ä N Z G</span> S I <span id=\"vor\">V O R</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"ab\">A B </span>O <span id=\"haubi\">H A U B I </span>E G E&nbsp;<br />" +
-								"&nbsp;<span id=\"eis\">E I S </span><span id=\"zwöi\">Z W Ö I </span>S <span id=\"drü\">D R Ü</span>&nbsp;<br />" +
+								"&nbsp;<span id=\"ab\">A B </span>O <span id=\"haubi\">H A L B I </span>E G E&nbsp;<br />" +
+								"&nbsp;<span id=\"eis\">E I S </span><span id=\"zwöi\">Z W O I </span>S <span id=\"drü\">D R Ü</span>&nbsp;<br />" +
 								"&nbsp;<span id=\"vieri\">V I E R I</span> <span id=\"füfi\">F Ü F I </span>Q T&nbsp;<br />" +
-								"&nbsp;<span id=\"sächsi\">S Ä C H S I </span><span id=\"sibni\">S I B N I</span>&nbsp;<br />" +
+								"&nbsp;<span id=\"sächsi\">S Ä C H S I </span><span id=\"sibni\">S E B N I</span>&nbsp;<br />" +
 								"&nbsp;<span id=\"achti\">A C H T I </span><span id=\"nüni\">N Ü N I </span>E L&nbsp;<br />" +
-								"&nbsp;<span id=\"zäni\">Z Ä N I </span>E R B <span id=\"eufi\">E U F I</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"zwöufi\">Z W Ö U F I </span>N A U H R&nbsp;<br />" +
+								"&nbsp;<span id=\"zäni\">Z Ä N I </span>E R B <span id=\"eufi\">E L F I</span>&nbsp;<br />" +
+								"&nbsp;<span id=\"zwöufi\">Z W Ö L F I </span>N A U H R&nbsp;<br />" +
 								"<span id=\"dot3\">.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot4\">.</span><br />";
 
 		return wrapper;
