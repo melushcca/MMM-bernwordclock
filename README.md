@@ -1,5 +1,6 @@
 # Module: Word Clock
-This Magic Mirror module displays a Word Clock written in the Swiss German dialect of Bern.
+This Magic Mirror module displays a Word Clock written in the Swiss German dialect of Luzern.
+Forked from splattner/MMM-bernwordclock
 
 ## Using the module
 
